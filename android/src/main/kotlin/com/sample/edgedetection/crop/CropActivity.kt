@@ -47,7 +47,7 @@ class CropActivity : BaseActivity(), ICropView.Proxy {
 
         if (item.itemId == R.id.action_label) {
             if(item.title == applicationContext.getString(R.string.next)){
-                item.title = "Done"
+                item.title = "Tamamla"
                 mPresenter.crop()
                 return true
             }
